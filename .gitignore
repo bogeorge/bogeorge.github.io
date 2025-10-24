@@ -1,0 +1,68 @@
+# --- Dependencies ---
+node_modules/
+.pnp/
+.pnp.js
+.pnpm-store/
+
+# --- Build / Output ---
+dist/
+build/
+.vite/
+
+# If you export storybook or other static builds
+storybook-static/
+
+# --- Caches & Temp ---
+.cache/
+.eslintcache
+.stylelintcache
+.tsbuildinfo
+*.tsbuildinfo
+
+# Tailwind JIT / tooling artifacts (rarely generated explicitly)
+*.tailwind.css.map
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Environment Files ---
+.env
+.env.*.local
+!.env.example
+
+# --- Coverage ---
+coverage/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# VS Code settings (allow curated project configs)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# --- Archives / Packages ---
+*.tgz
+
+# --- Temporary ---
+tmp/
+temp/
+
+# --- Misc ---
+# Local certificates or keys (add specific names if used)
+*.pem
+*.key
+
+# --- GitHub Pages ---
+# Deployment happens from the gh-pages branch via workflow; no special ignore needed here.
